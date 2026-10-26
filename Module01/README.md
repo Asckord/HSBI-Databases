@@ -40,21 +40,21 @@ Module description
 
 <Explain — with a measurement, not a slide — the difference between an embedded database and a client/server database, and why most local apps should not run a server.>
 
-**Evidence:** [Task Inspirations](#task-inspirations)
+**Evidence:** [Task Differences of Databases](#task-differences)
 
 <a id="lg5"></a>
 ### LG5 — `<SQLite>`
 
 <Load real rows into SQLite and query them from Python using bound parameters.>
 
-**Evidence:** [Task Personal Profile](#task-personal-profile)
+**Evidence:** [Task Loading Rows](#task-loading-rows)
 
 <a id="lg6"></a>
 ### LG6 — `<Query>`
 
 <Take a first LLM-generated query, run it, and begin the habit that defines this course: verify before you trust.>
 
-**Evidence:** [Task What is IoT](#task-what-is-iot)
+**Evidence:** [Task LLM-Generated Query](#task-query)
 
 <a id="task-inspirations"></a>
 ## Task Inspirations
@@ -74,21 +74,21 @@ Module description
 
 **Proves:** [LG3](#lg3)
 
-<a id="task-inspirations"></a>
-## Task Inspirations
+<a id="#task-differences"></a>
+## Task Differences
 
 **Proves:** [LG4](#lg4)
 
-- Inspiration 1
-- Inspiration 2
+- Difference 1
+- Difference 2
 
-<a id="task-personal-profile"></a>
-## Task Personal Profile
+<a id="#task-loading-rows"></a>
+## Task Loading Rows
 
 **Proves:** [LG5](#lg5)
 
-<a id="task-what-is-iot"></a>
-## Task What is IoT
+<a id="task-query"></a>
+## Task LLM-Generated Query
 
 **Proves:** [LG6](#lg6)
 

@@ -49,26 +49,26 @@
 > - If you want to take a class on git and even potentially get certified:
 >   https://education.github.com/experiences/foundations_certificate
 
-Author: <replace these pointy brackets with your full name>
+Author: <Artem Degtiarev>
 
-My partner is <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
+My partners are <Abdul Hadi>, [portfolio link](https://github.com/Xx3n0n/Portfolio---Database); <Ian Edgar Arceo>, [portfolio link](https://github.com/IEdArc08/databases-portfolio); <Arshia Ziaee>, [portfolio link](https://github.com/Arshia-zi/databases-portfolio).
 
 In my team for the final project, I also had the following members:
-- <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
-- <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
+- <Abdul Hadi>, [portfolio link](https://github.com/Xx3n0n)
+- <Ian Edgar Arceo>, [portfolio link](https://github.com/IEdArc08)
+- <Arshia Ziaee>, [portfolio link](https://github.com/Arshia-zi)
 
-Our team final project repository is [here](https://github.com/somewhere/final-iot-project)
+Our team final project repository is [here](-).
 
-My personal profile and expectations, you can find [here](Module01/README.md#task-personal-profile).
+My personal profile and expectations, you can find [here](https://github.com/Asckord).
 
 ## Table of Contents
 
-- [Pre-study (optional)](PreStudy/README.md)
+- [Pre-study](PreStudy/README.md)
 - [Module 1: IoT Introduction — example](Module01/README.md), 
   [Reflection 1](Reflections/ref01.md)
 - [Module 2: Hardware and Basic Electronics — example](Module02/README.md),
   [Reflection 2](Reflections/ref02.md), [Reflection 3](Reflections/ref03.md)
-- ...
 
 ## Miscellanious
 
