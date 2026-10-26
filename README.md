@@ -1,4 +1,31 @@
 # Personal Portfolio for the IoT/MCU class <at university/school>
+Author: Artem Degtiarev
+
+My partners are Abdul Hadi ([portfolio link](https://github.com/Xx3n0n/Portfolio---Database)); Ian Edgar Arceo ([portfolio link](https://github.com/IEdArc08/databases-portfolio)); Arshia Ziaee ([portfolio link](https://github.com/Arshia-zi/databases-portfolio))
+
+In my team for the final project, I also had the following members:
+- Abdul Hadi, [portfolio link](https://github.com/Xx3n0n)
+- Ian Edgar Arceo, [portfolio link](https://github.com/IEdArc08)
+- Arshia Ziaee, [portfolio link](https://github.com/Arshia-zi)
+
+Our team final project repository is [here](-)
+
+My personal profile and expectations, you can find [here](https://github.com/Asckord)
+
+## Table of Contents
+
+- [Pre-study](PreStudy/README.md)
+- [Module 1: IoT Introduction — example](Module01/README.md), 
+  [Reflection 1](Reflections/ref01.md)
+- [Module 2: Hardware and Basic Electronics — example](Module02/README.md),
+  [Reflection 2](Reflections/ref02.md), [Reflection 3](Reflections/ref03.md)
+
+## Miscellanious
+
+- [Hardware in my/our possession](Hardware/README.md)
+
+
+
 
 > When you start editing this file, remove this description.
 >
@@ -48,30 +75,3 @@
 > - Slightly longer git-intro tutorial video: https://youtu.be/8Dd7KRpKeaE
 > - If you want to take a class on git and even potentially get certified:
 >   https://education.github.com/experiences/foundations_certificate
-
-Author: Artem Degtiarev
-
-My partners are Abdul Hadi ([portfolio link](https://github.com/Xx3n0n/Portfolio---Database)); Ian Edgar Arceo ([portfolio link](https://github.com/IEdArc08/databases-portfolio)); Arshia Ziaee ([portfolio link](https://github.com/Arshia-zi/databases-portfolio))
-
-In my team for the final project, I also had the following members:
-- Abdul Hadi, [portfolio link](https://github.com/Xx3n0n)
-- Ian Edgar Arceo, [portfolio link](https://github.com/IEdArc08)
-- Arshia Ziaee, [portfolio link](https://github.com/Arshia-zi)
-
-Our team final project repository is [here](-)
-
-My personal profile and expectations, you can find [here](https://github.com/Asckord)
-
-## Table of Contents
-
-- [Pre-study](PreStudy/README.md)
-- [Module 1: IoT Introduction — example](Module01/README.md), 
-  [Reflection 1](Reflections/ref01.md)
-- [Module 2: Hardware and Basic Electronics — example](Module02/README.md),
-  [Reflection 2](Reflections/ref02.md), [Reflection 3](Reflections/ref03.md)
-
-## Miscellanious
-
-- [Hardware in my/our possession](Hardware/README.md)
-
-
