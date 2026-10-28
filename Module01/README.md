@@ -124,7 +124,7 @@ Take a first LLM-generated query, run it, and begin the habit that defines this 
 
 - The SQL request is: 'SELECT machine, AVG(spindle_load) AS avg_spindle_load FROM readings WHERE time(ts) < '09:00:00' GROUP BY machine ORDER BY avg_spindle_load DESC;'
 
-- The result is [here]()
+- The result is [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/pictures/Result%20of%20LLM's%20Request.png)
 
 - The query executed successfully and returned three machines sorted by average spindle load in descending order. However, 'time(ts)' extracts only the time of day and ignores the date, potentially including readings from unintended dates. For a specific date and time boundary, comparing full timestamps is more reliable.
 
