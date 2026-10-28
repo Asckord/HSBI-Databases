@@ -1,13 +1,5 @@
 # Module 1
 
-> **Example module** from the IoT introduction class. Adjust the headings and tasks to match your actual course content.
-
-> When you start editing this file, remove this description.
->
-> Usually the first things you have to document are some inspirations hinting at what
-> you might be able to build in this class, a personal profile description regarding
-> programming expertise, previous MCU knowledge, creative qualities, and expectations
-
 Module description
 
 ## Learning Goals
@@ -59,7 +51,7 @@ Take a first LLM-generated query, run it, and begin the habit that defines this 
 <a id="task-inspirations"></a>
 ## Task Inspirations
 
-**Proves:** [LG1](#lg1)
+**Proves:** [LG1](#lg1) - Was made by my own
 
 - Inspiration 1 — Challenge-/Project-Based Learning (CBL/PBL): Learning through practical challenges and projects rather than theory alone
 
@@ -68,36 +60,61 @@ Take a first LLM-generated query, run it, and begin the habit that defines this 
 <a id="task-personal-profile"></a>
 ## Task Personal Profile
 
-**Proves:** [LG2](#lg2)
+**Proves:** [LG2](#lg2) - Was made by my own
 
 - My personal [portfolio](https://github.com/Asckord/HSBI-Databases)
 
-- The instructor was added as a repository collaborator (prove is at the [picture]())
+- The instructor was added as a repository collaborator (prove is at the [picture](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/pictures/The%20instructor's%20addition.png))
 
 - The first [commit](https://github.com/Asckord/HSBI-Databases/commit/23c088ed6c0ef61068c60f48a93e2472bc61ecdf)
+
+- The file '.gitignore' was successfully [created]()
+
+- All the commits can be seem [here](https://github.com/Asckord/HSBI-Databases/commits/main/) 
+
+- The description of the personal portfolio was [updated](https://github.com/Asckord/HSBI-Databases/blob/main/README.md)
 
 <a id="task-what-is-iot"></a>
 ## Task What is IoT
 
-**Proves:** [LG3](#lg3)
+**Proves:** [LG3](#lg3) - Was made by my own
 
 <a id="#task-differences"></a>
 ## Task Differences
 
-**Proves:** [LG4](#lg4)
+**Proves:** [LG4](#lg4) - Was made by my own
 
-- Difference 1
-- Difference 2
+- The needed files [shell-tour.txt](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/shell-tour.txt) and [toursql](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/tour.sql)
+
+- Difference 1: SQLite runs directly in an application; client-server databases require a separate server
+
+- Difference 2: SQLite requires minimal administration; client-server databases need more configuration and maintenance
+
+- Difference 3: Both are reliable; client-server databases often offer more advanced recovery and replication features
+
+- Difference 4: SQLite allows only one writer at a time; client-server databases generally support multiple concurrent writers
+
+- Difference 5: SQLite is free and requires minimal infrastructure; client-server databases may involve server and maintenance costs
+
+- The run time: real 0.002831 user 0.000000 sys 0.000000
 
 <a id="#task-loading-rows"></a>
 ## Task Loading Rows
 
-**Proves:** [LG5](#lg5)
+- The needed files: [generate_telemetry.py](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/generate_telemetry.py) and [load_telemetry.py](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/load_telemetry.py)
+
+- The size of telemetry.db is 172800 and ammount of lines of telemetry.db is 10526720
+
+- The needed [results of requests]()
+
+- Storing this telemetry data in the cloud would incur storage and database service costs depending on the data volume and usage, which would be paid by the company operating the application
+
+**Proves:** [LG5](#lg5) - Was made by my own
 
 <a id="task-query"></a>
 ## Task LLM-Generated Query
 
-**Proves:** [LG6](#lg6)
+**Proves:** [LG6](#lg6) - Was made by my own
 
 Domains and included areas:
 

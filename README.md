@@ -1,4 +1,4 @@
-# Personal Portfolio for the IoT/MCU class <at university/school>
+# Personal Portfolio for the MCU Databases class at HSBI University
 Author: Artem Degtiarev
 
 My partners are Abdul Hadi ([portfolio link](https://github.com/Xx3n0n/Portfolio---Database)); Ian Edgar Arceo ([portfolio link](https://github.com/IEdArc08/databases-portfolio)); Arshia Ziaee ([portfolio link](https://github.com/Arshia-zi/databases-portfolio))

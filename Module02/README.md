@@ -41,34 +41,33 @@ Express a schema as a code-first data contract (Pydantic / SQLAlchemy) that an a
 
 Write the requirements the schema forgot: the business rules nobody encoded
 
-**Evidence:** [LG5](#task-requirements)
+**Evidence:** [LG5](#task-requirements) 
 
 <a id="task-reconstruction"></a>
 ## Task Reconstruction
 
-**Proves:** [LG1](#lg1)
+**Proves:** [LG1](#lg1) - Was made by my own
 
 <a id="task-identification"></a>
 ## Task Identification
 
-**Proves:** [LG2](#lg2)
+**Proves:** [LG2](#lg2) - Was made by my own
 
 <a id="task-relationship"></a>
 ## Task Relationship
 
-**Proves:** [LG3](#lg3)
-
+**Proves:** [LG3](#lg3) - Was made by my own
 
 <a id="task-expression"></a>
 ## Task Expression
 
-**Proves:** [LG4](#lg4)
+**Proves:** [LG4](#lg4) - Was made by my own
 
 
 <a id="task-requirements"></a>
 ## Task Requirements
 
-**Proves:** [LG5](#lg5)
+**Proves:** [LG5](#lg5) - Was made by my own
 
 ## Reflection 2
 
