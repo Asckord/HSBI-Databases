@@ -9,53 +9,68 @@ We are going to show here notes for Task 1, 2, 3, 4, and 5 to prove
 > Copy the module's learning goals from the course workbook. Keep the `LG1`, `LG2`, … IDs and a one-word keyword; under each goal, link to the task that proves it.
 
 <a id="lg1"></a>
-### LG1 — `<keyword>`
+### LG1 — `Reconstruction`
 
-<copy the goal here>
+Reconstruct an ER/EER model (entities, attributes, keys, relationships, cardinalities) from an undocumented SQL schema
 
-**Evidence:** [Task 1](#task-1)
+**Evidence:** [LG1](#task-reconstruction)
 
 <a id="lg2"></a>
-### LG2 — `<keyword>`
+### LG2 — `Identification`
 
-<copy the goal here>
+Identify integrity defects — missing foreign keys, orphan rows, redundant data, normalization violations — with queries, not intuition
 
-**Evidence:** [Task 2](#task-2)
+**Evidence:** [LG2](#task-identification)
 
 <a id="lg3"></a>
-### LG3 — `<keyword>`
+### LG3 — `Relationship`
 
-<copy the goal here>
+Distinguish an entity relationship from an attribute, and a surrogate key from a natural key, and justify the choice
 
-**Evidence:** [Task 3](#task-3)
+**Evidence:** [LG3](#task-relationship)
 
-<a id="task-1"></a>
-## Task 1 — `<short title>`
+<a id="lg4"></a>
+### LG4 — `Expression`
+
+Express a schema as a code-first data contract (Pydantic / SQLAlchemy) that an application can enforce
+
+**Evidence:** [LG4](#task-expression)
+
+<a id="lg5"></a>
+###LG5 — `Requirements`
+
+Write the requirements the schema forgot: the business rules nobody encoded
+
+**Evidence:** [LG5](#task-requirements)
+
+<a id="task-reconstruction"></a>
+## Task Reconstruction
 
 **Proves:** [LG1](#lg1)
 
-This task was executed by myself.
-
-<a id="task-2"></a>
-## Task 2 — `<short title>`
+<a id="task-identification"></a>
+## Task Identification
 
 **Proves:** [LG2](#lg2)
 
-This task was executed by my partner. The implementation was about ...
-It is [here](https://github.com/partner/iot-portfolio/Module02/README.md#task-2).
-
-<a id="task-3"></a>
-## Task 3 — `<short title>`
+<a id="task-relationship"></a>
+## Task Relationship
 
 **Proves:** [LG3](#lg3)
 
-...
+
+<a id="task-expression"></a>
+## Task Expression
+
+**Proves:** [LG4](#lg4)
+
+
+<a id="task-requirements"></a>
+## Task Requirements
+
+**Proves:** [LG5](#lg5)
 
 ## Reflection 2
 
 [Reflection 2](../Reflections/ref02.md)
 
-If the module is longer than 1 week, you might have several reflections within it. If not, delete this and the following.
-
-## Reflection 3
-[Reflection 3](../Reflections/ref03.md)
