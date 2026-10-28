@@ -68,7 +68,7 @@ Take a first LLM-generated query, run it, and begin the habit that defines this 
 
 - The first [commit](https://github.com/Asckord/HSBI-Databases/commit/23c088ed6c0ef61068c60f48a93e2472bc61ecdf)
 
-- The file '.gitignore' was successfully [created]()
+- The file '.gitignore' was successfully [created](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/.gitignore)
 
 - All the commits can be seem [here](https://github.com/Asckord/HSBI-Databases/commits/main/) 
 
@@ -78,6 +78,8 @@ Take a first LLM-generated query, run it, and begin the habit that defines this 
 ## Task What is IoT
 
 **Proves:** [LG3](#lg3) - Was made by my own
+
+- The proves of toolchain installation is [here]()
 
 <a id="#task-differences"></a>
 ## Task Differences
@@ -101,11 +103,13 @@ Take a first LLM-generated query, run it, and begin the habit that defines this 
 <a id="#task-loading-rows"></a>
 ## Task Loading Rows
 
+- The game SQL Island was [passed](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/pictures/End%20of%20SQL%20Island.png) and the code is [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/SQL%20Island.txt)
+
 - The needed files: [generate_telemetry.py](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/generate_telemetry.py) and [load_telemetry.py](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/load_telemetry.py)
 
 - The size of telemetry.db is 172800 and ammount of lines of telemetry.db is 10526720
 
-- The needed [results of requests]()
+- The needed [results of requests](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/pictures/Results%20of%20Requests.png)
 
 - Storing this telemetry data in the cloud would incur storage and database service costs depending on the data volume and usage, which would be paid by the company operating the application
 
