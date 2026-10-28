@@ -14,39 +14,39 @@
 
 What do you want to remember? What would be your advice?
 
-[short description here]
+The installation takes much more time than the Module itself. If there is a possibility, it woyuld be better to have computers where it already was inatalled (in the class). I would prefer to have more games like SQL Island
 
 ## What was good?
 
-[short description here]
+The game SQL Island was really good and explained the base of SQL clear enough
 
 ## What was difficult?
 
 Where did you struggle? What was the root cause?
 
-[short description here]
+The installation took almost all the ttime and it was reallu mundaine
 
 ## Exploration and show stoppers
 
 Was there any good/fun “struggling” or exploration?
 Anything where you should reach out to peers or instructors?
 
-[short description here]
+Only with installation
 
 ## Interaction with peers and instructors
 
-[short description here]
+Everything was fine but I prefered to do this all by my own
 
 ## How did you verify AI suggestions?
 
 What did you ask an AI, and how did you check the answer against a datasheet,
 a measurement, a packet capture, or a live test? Where was it wrong?
 
-[short description here]
+The discussion with AI was really long and sometimes it just didn't memorize well enough. It was the coause for it's mistakes - the rest was fine 
 
 ## Help and extra work
 
 Who helped you, gave feedback, and was it valuable?
 Who did you help? Did you present, implement, make a PR, or fix something crucial for the class?
 
-[short description here]
+Nothing like this yet

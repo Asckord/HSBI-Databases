@@ -79,7 +79,7 @@ Take a first LLM-generated query, run it, and begin the habit that defines this 
 
 **Proves:** [LG3](#lg3) - Was made by my own
 
-- The proves of toolchain installation is [here]()
+- The proves of toolchain installation is [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module01/pictures/Proves%20of%20Toolchain%20Installation.png)
 
 <a id="#task-differences"></a>
 ## Task Differences
@@ -120,25 +120,32 @@ Take a first LLM-generated query, run it, and begin the habit that defines this 
 
 **Proves:** [LG6](#lg6) - Was made by my own
 
+- The promt is: 'Write an SQLite query that calculates the average spindle load for each machine using only telemetry readings recorded earlier than 9:00. Sort the results by average spindle load in descending order'
+
+- The SQL request is: 'SELECT machine, AVG(spindle_load) AS avg_spindle_load FROM readings WHERE time(ts) < '09:00:00' GROUP BY machine ORDER BY avg_spindle_load DESC;'
+
+- The result is [here]()
+
+- The query executed successfully and returned three machines sorted by average spindle load in descending order. However, 'time(ts)' extracts only the time of day and ignores the date, potentially including readings from unintended dates. For a specific date and time boundary, comparing full timestamps is more reliable.
+
 Domains and included areas:
 
--
--
+- Industrial IoT, smart manufacturing
+- Machine monitoring, predictive maintenance
 
 Commonly used (data) protocols:
 
--
--
+- MQTT
+- HTTP/REST
 
 Typical devices (appliance or micro controller):
 
--
--
+- Sensors (temperature, vibration)
+- PLCs, industrial controllers
 
 Challenges:
 
--
--
+- Data storage, reliability and processing costs
 
 ## Reflection 1
 
