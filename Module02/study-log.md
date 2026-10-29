@@ -41,12 +41,12 @@ I understood the difference by considering that a machine already has a serial n
 I considered an example in which a part's description is repeated in many maintenance-job records and understood that separating parts into their own table would make everything much simpler.
 
 The found ER-diagrams are: 
-[1 - here](), which was taken from [here](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model?utm_source=chatgpt.com#/media/File:ER_Diagram_MMORPG.svg) - it taught that  ER diagrams help identify entities, their attributes, and relationship cardinalities. They can also model the difference between a general type and individual instances, which is useful when designing databases for more complex systems.
-[2 - here](), which was taken from [here](https://lucid.co/diagram/erd/symbols-and-notation?utm_source=chatgpt.com) - it taught that freign keys may connect related tables, lookup tables store reusable values, and a self-referencing foreign key can represent relationships between records of the same entity type
+[1 - here](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/pictures/Found%20ER-diagram%201.png), which was taken from [here](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model?utm_source=chatgpt.com#/media/File:ER_Diagram_MMORPG.svg) - it taught that  ER diagrams help identify entities, their attributes, and relationship cardinalities. They can also model the difference between a general type and individual instances, which is useful when designing databases for more complex systems.
+[2 - here](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/pictures/Found%20ER-diagram%202.png), which was taken from [here](https://lucid.co/diagram/erd/symbols-and-notation?utm_source=chatgpt.com) - it taught that freign keys may connect related tables, lookup tables store reusable values, and a self-referencing foreign key can represent relationships between records of the same entity type
 
 The made 4 tables are:
 
-[Table 1-1]() Machine and Nameplate:
+[Table 1-1](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/pictures/Table%201-1%20Machine%20and%20Nameplate.png) Machine and Nameplate:
 Description: Each machine has exactly one nameplate containing its serial number and manufacturer. Each nameplate belongs to exactly one machine.
 Entities: Machine, Nameplate.
 Attributes:
@@ -54,14 +54,14 @@ Attributes:
 -Nameplate: machine_id (primary key and foreign key), serial_number, manufacturer.
 Relationship: One-to-one (1:1).
 
-[Table 1-N]() Machine and Sensor:
+[Table 1-N](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/pictures/Table%201-N%20Machine%20and%20Sensor.png) Machine and Sensor:
 Entities: Machine, Sensor.
 Attributes:
 -Machine: machine_id (primary key), machine_name.
 -Sensor: sensor_id (primary key), machine_id (foreign key), sensor_type.
 Relationship: One-to-many (1). One machine can have multiple sensors, while each sensor belongs to exactly one machine.
 
-[Table M-N]() Work Order and Part:
+[Table M-N](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/pictures/Table%20M-N%20Work%20Order%20and%20Part.png) Work Order and Part:
 Description: A work order can use multiple parts, and a part can be used in multiple work orders. The same part can appear only once in a given work order.
 Entities: Work_Order, Part, Work_Order_Part.
 Attributes:
@@ -70,7 +70,7 @@ Attributes:
 -Work_Order_Part: order_id and part_id (composite primary key and foreign keys), quantity.
 Relationship: Many-to-many (M) between Work_Order and Part, implemented using the junction table Work_Order_Part.
 
-[Table vs]() Entity vs. Attribute vs. Relationship Maintenance Job:
+[Table vs](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/pictures/Table%20Entity%20vs.%20Attribute%20vs.%20Relationship%20Maintenance%20Job.png) Entity vs. Attribute vs. Relationship Maintenance Job:
 Entities: Machine, Technician, Maintenance_Job.
 Attributes:
 -Machine: machine_id (primary key), machine_name.
@@ -81,7 +81,7 @@ Relationships:
 -One technician can perform multiple maintenance jobs (1).
 -Each maintenance job refers to exactly one machine and one technician.
 
-[Prove]() for Table 1-N Machine and Sensor:
+[Prove](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/pictures/Prove%20of%20ER-diagram.png) for Table 1-N Machine and Sensor:
 
 CREATE TABLE Machine (machine_id INTEGER PRIMARY KEY, machine_name TEXT NOT NULL);
 CREATE TABLE Sensor (sensor_id INTEGER PRIMARY KEY, machine_id INTEGER NOT NULL, sensor_type TEXT NOT NULL, FOREIGN KEY (machine_id) REFERENCES Machine(machine_id));

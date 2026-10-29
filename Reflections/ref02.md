@@ -35,7 +35,7 @@ Everything was fine but I prefered to do this all by my own
 What did you ask an AI, and how did you check the answer against a datasheet,
 a measurement, a packet capture, or a live test? Where was it wrong?
 
-Everything I asked AI about was in general explained in [study-log.md]() - the verification was usually through my imagination
+Everything I asked AI about was in general explained in [study-log.md](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/study-log.md) - the verification was usually through my imagination
 
 ## Help and extra work
 
