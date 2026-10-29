@@ -1,0 +1,7 @@
+CREATE TABLE Machine (machine_id INTEGER PRIMARY KEY, machine_name TEXT NOT NULL);
+CREATE TABLE Sensor (sensor_id INTEGER PRIMARY KEY, machine_id INTEGER NOT NULL, sensor_type TEXT NOT NULL, FOREIGN KEY (machine_id) REFERENCES Machine(machine_id));
+
+INSERT INTO Machine (machine_id, machine_name) VALUES (1, 'CNC-01');
+INSERT INTO Sensor (sensor_id, machine_id, sensor_type) VALUES (101, 1, 'Temperature'), (102, 1, 'Vibration');
+
+SELECT m.machine_name, COUNT(s.sensor_id) AS sensor_count FROM Machine AS m LEFT JOIN Sensor AS s ON m.machine_id = s.machine_id GROUP BY m.machine_id, m.machine_name;
