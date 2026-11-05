@@ -1,25 +1,27 @@
 # Module 2
 
-> **Example module** from the IoT introduction class. Adjust the headings and tasks to match your actual course content.
-
-We are going to show here notes for Task 1, 2, 3, 4, and 5 to prove
+Module description
 
 ## Learning Goals
 
-> Copy the module's learning goals from the course workbook. Keep the `LG1`, `LG2`, … IDs and a one-word keyword; under each goal, link to the task that proves it.
-
 <a id="lg1"></a>
 ### LG1 — `Reconstruction`
+
+Reconstruct an ER/EER model (entities, attributes, keys, relationships, cardinalities) from an undocumented SQL schema.
 
 **Evidence:** [LG1](#task-reconstruction)
 
 <a id="lg2"></a>
 ### LG2 — `Identification`
 
+Identify integrity defects — missing foreign keys, orphan rows, redundant data, normalization violations — with queries, not intuition.
+
 **Evidence:** [LG2](#task-identification)
 
 <a id="lg3"></a>
 ### LG3 — `Relationship`
+
+Distinguish an entity relationship from an attribute, and a surrogate key from a natural key, and justify the choice.
 
 **Evidence:** [LG3](#task-relationship)
 
