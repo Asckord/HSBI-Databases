@@ -1,14 +1,6 @@
 # Reflection 1
 
-> This is the only reflection file that spells out the prompts. fill in the [short description here]
-> In the future, copy the [reflection template](TEMPLATE.md) to the respective refnn.md file
-> and write your answers there.
-> Remove this note.
-
 # Reflection template
-
-> Copy this file to `ref01.md`, `ref02.md`, … and replace each `[short description here]`
-> with your answer. Keep each section short — a few sentences is plenty.
 
 ## Take-away
 
@@ -18,13 +10,15 @@ The installation takes much more time than the Module itself. If there is a poss
 
 ## What was good?
 
+What did you notice that was interesting? What was the root cause?
+
 The game SQL Island was really good and explained the base of SQL clear enough
 
 ## What was difficult?
 
 Where did you struggle? What was the root cause?
 
-The installation took almost all the ttime and it was reallu mundaine
+The installation took almost all the ttime and it was reallu mundane
 
 ## Exploration and show stoppers
 

@@ -1,48 +1,42 @@
-# Reflection 1
-
-> This is the only reflection file that spells out the prompts. fill in the [short description here]
-> In the future, copy the [reflection template](TEMPLATE.md) to the respective refnn.md file
-> and write your answers there.
-> Remove this note.
+# Reflection 3
 
 # Reflection template
-
-> Copy this file to `ref01.md`, `ref02.md`, … and replace each `[short description here]`
-> with your answer. Keep each section short — a few sentences is plenty.
 
 ## Take-away
 
 What do you want to remember? What would be your advice?
 
-The installation takes much more time than the Module itself. If there is a possibility, it woyuld be better to have computers where it already was inatalled (in the class). I would prefer to have more games like SQL Island
+The structure of discoveries is not completely clear. It would be much better to make it in the document with additional requests to clarify something by ourselves 
 
 ## What was good?
 
-The game SQL Island was really good and explained the base of SQL clear enough
+What did you notice that was interesting? What was the root cause?
+
+Working with indexes was useful to understand the concept
 
 ## What was difficult?
 
 Where did you struggle? What was the root cause?
 
-The installation took almost all the ttime and it was reallu mundaine
+The discoveries take to much time without any structure
 
 ## Exploration and show stoppers
 
 Was there any good/fun “struggling” or exploration?
 Anything where you should reach out to peers or instructors?
 
-Only with installation
+With particular questions to AI everything became clear enough
 
 ## Interaction with peers and instructors
 
-Everything was fine but I prefered to do this all by my own
+Nothing new - the whole module was made bt myself
 
 ## How did you verify AI suggestions?
 
 What did you ask an AI, and how did you check the answer against a datasheet,
 a measurement, a packet capture, or a live test? Where was it wrong?
 
-The discussion with AI was really long and sometimes it just didn't memorize well enough. It was the coause for it's mistakes - the rest was fine 
+Sometimes AI makes mistakes but not in the topic - in the tasks. I told what I need and in two messages it forgets with removing it and answeres something completely new 
 
 ## Help and extra work
 

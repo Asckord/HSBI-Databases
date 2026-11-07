@@ -1,8 +1,5 @@
 # Reflection 2
 
-> Copy this file to `ref01.md`, `ref02.md`, … and replace each `[short description here]`
-> with your answer. Keep each section short — a few sentences is plenty.
-
 ## Take-away
 
 What do you want to remember? What would be your advice?
@@ -10,6 +7,8 @@ What do you want to remember? What would be your advice?
 The pretask about the personal discoveries was quite useful. Since I had no Idea what we are going to do - the little theoretical preparation was really needed 
 
 ## What was good?
+
+What did you notice that was interesting? What was the root cause?
 
 The tasks were given after personal theoretical discovery so the structure and volume of the module was really good
 

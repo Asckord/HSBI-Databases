@@ -32,7 +32,7 @@ Distinguish an entity relationship from an attribute, and a surrogate key from a
 
 - Preparations were done in the file [study-log.mb](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/study-log.md)
 
-- List the entities primary keys are [here]()
+- List of the entities primary keys are [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/er-audit.md)
 
 - The made ER-diagram can be found [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/pictures/Made%20ER-diagram.png)
 
