@@ -35,7 +35,7 @@ Generate a query with an LLM, then verify it: correctness, performance, and edge
 <a id="task-building"></a>
 ## Task Building
 
-- The file sql-notes.md was [developed]()
+- The file sql-notes.md was [developed](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/sql-notes.md)
 
 - The [result]() of the commands was developed
 
