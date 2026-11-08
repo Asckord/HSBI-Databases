@@ -1,6 +1,6 @@
-https://pressbooks.uiowa.edu/fundamentalsofdatabasemanagement/chapter/chapter-2/?utm_source=chatgpt.com - how to represent entities, attributes, and relationships; one-to-one (1:1), one-to-many (1:N) and optional versus mandatory relationships; how to represent real-world constraints in a data model; how to determine how many instances of one entity can be associated with another
+https://pressbooks.uiowa.edu/fundamentalsofdatabasemanagement/chapter/chapter-2/ - how to represent entities, attributes, and relationships; one-to-one (1:1), one-to-many (1:N) and optional versus mandatory relationships; how to represent real-world constraints in a data model; how to determine how many instances of one entity can be associated with another
 
-https://courses.ischool.berkeley.edu/i202/f97/Lecture8/Lecture8.html?utm_source=chatgpt.com - how to organize tables to reduce unnecessary data duplication; including first, second, and third normal forms; problems that can occur when inserting, updating, or deleting records; why many-to-many relationships require an intermediate table.
+https://courses.ischool.berkeley.edu/i202/f97/Lecture8/Lecture8.html- how to organize tables to reduce unnecessary data duplication; including first, second, and third normal forms; problems that can occur when inserting, updating, or deleting records; why many-to-many relationships require an intermediate table.
 
 Questions:
 1:

@@ -1,10 +1,10 @@
-https://www.sqlite.org/eqp.html?utm_source=chatgpt.com - official documentation. Explains SCAN, SEARCH, the use of indexes, covering indexes, and temporary sorting structures
+https://www.sqlite.org/eqp.html - official documentation. Explains SCAN, SEARCH, the use of indexes, covering indexes, and temporary sorting structures
 
-https://en.wikipedia.org/wiki/Relational_algebra?utm_source=chatgpt.com - explains SELECTION, PROJECTION, JOIN, UNION, DIFFERENCE and the mathematical foundation of relational queries
+https://en.wikipedia.org/wiki/Relational_algebra - explains SELECTION, PROJECTION, JOIN, UNION, DIFFERENCE and the mathematical foundation of relational queries
 
-https://use-the-index-luke.com/?utm_source=chatgpt.com - a guide to indexes, their usage, and the reasons why the optimizer might ignore them
+https://use-the-index-luke.com/ - a guide to indexes, their usage, and the reasons why the optimizer might ignore them
 
-https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html?utm_source=chatgpt.com - a guide to securing SQL queries, parameterization and handling user input safely
+https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html - a guide to securing SQL queries, parameterization and handling user input safely
 
 Questions:
 1:
