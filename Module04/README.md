@@ -44,23 +44,23 @@ Use DML correctly — including (UPSERT ON CONFLICT) for idempotent edge ingesti
 <a id="task-deriviation"></a>
 ## Task Deriviation
 
-- The [SQL run]() and [python run]() are done
+- The [SQL run](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/pictures/Task%202%20SQL%20run.png) and [python run](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/pictures/Task%202%20python%20run.png) are done
 
 **Proves:** [LG2](#lg2) - Was made by my own
 
 <a id="task-triggers"></a>
 ## Task Triggers
 
-- The triggers were developed and [checked]()
+- The triggers were developed and [checked](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/pictures/Task%203%20run.png)
 
-- The execution of trigger's time was [received]() through written python file [time_trigger.py]() 
+- The execution of trigger's time was [received](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/pictures/Time%20of%20Trigger.png) through written python file [time_trigger.py](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/time_trigger.py) 
 
 **Proves:** [LG3](#lg3) - Was made by my own
 
 <a id="task-using"></a>
 ## Task DML Using
 
-- The access was successfully [checked]()
+- The access was successfully [checked](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/pictures/Task%204.png)
 
 - PostgreSQL has users and roles, so you can decide who can read or change specific tables. SQLite works differently because it doesn't have its own user management — access is controlled through file permissions, read-only mode and views. This works fine for a local database where usually one application accesses the file. But for a web app with many users, it's not enough, because each user may need different permissions (even on the computer of the developer himself)
 
