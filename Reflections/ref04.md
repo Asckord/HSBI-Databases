@@ -25,7 +25,7 @@ The discoveries in the beggining did not explain everything and structure was no
 Was there any good/fun “struggling” or exploration?
 Anything where you should reach out to peers or instructors?
 
-
+The only thing was - to understand the all needed theory which was done with AI
 
 ## Interaction with peers and instructors
 

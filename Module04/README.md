@@ -35,9 +35,9 @@ Use DML correctly — including (UPSERT ON CONFLICT) for idempotent edge ingesti
 <a id="task-creation"></a>
 ## Task Creation
 
-- The file integrity-notes.md was [created]()
+- The file integrity-notes.md was [created](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/integrity-notes.md)
 
-- The [first]() and the [second]() tables were developed and checked
+- The [first](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/pictures/Task%20A%20(First%20Run).png) and the [second](https://github.com/Asckord/HSBI-Databases/blob/main/Module04/pictures/Task%20A%20(Second%20Run).png) tables were developed and checked
 
 **Proves:** [LG1](#lg1) - Was made by my own
 
