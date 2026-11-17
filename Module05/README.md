@@ -53,30 +53,30 @@ Candidate Key: (job_id, part_no), because together they uniquely identify each r
 
 After normalization, machine_id → site is moved to a separate machine table, and part_no → part_price is moved to a separate part table. This reduces data redundancy and prevents update anomalies.
 
-- The Arisha's part is presented in pictures [1](), [2](), [3]()
+- The Arisha's part is presented in pictures [1](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Arisha%201.png), [2](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Arisha%202.png), [3](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Arisha%203.png)
 
 <a id="task-identification"></a>
 ## Task Normalization
 
 **Proves:** [LG2](#lg2) - Was made [Arisha](https://github.com/Arshia-zi)(2) and by myself (3)
 
-- The Arisha's part is presented in pictures [4](), [5](), [6](), [7]()
+- The Arisha's part is presented in pictures [4](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Arisha%204.png), [5](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Arisha%205.png), [6](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Arisha%206.png), [7](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Arisha%207.png)
 
-- 
+- The result of the round 3 can be seen [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Round%203.png)
 
 <a id="task-relationship"></a>
 ## Task Denormalization
 
 **Proves:** [LG3](#lg3) - Was made by my own
 
-- 
+- The result of the round 4 can be seen [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Round%204.png)
 
 <a id="task-measurement"></a>
 ## Task Measurement
 
 **Proves:** [LG4](#lg4) - Was made by my own
 
-- 
+- The result of the round 5 can be seen [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module05/pictures/Round%205.png)
 
 <a id="task-decidion"></a>
 ## Task Decidion
