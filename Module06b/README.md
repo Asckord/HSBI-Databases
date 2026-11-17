@@ -1,4 +1,4 @@
-# Module 6
+# Module 6b
 
 Module description
 
@@ -64,7 +64,7 @@ All the [defects](https://github.com/Asckord/HSBI-Databases/blob/main/Module02/p
 
 - Pydantic validates that machine_id is at least 1 and serial_no starts with SN-, providing immediate feedback on invalid input. The database enforces primary keys, foreign keys, non-null constraints, and unique serial numbers to protect data integrity, even when data bypasses Pydantic validation. This separates input validation from database-level integrity guarantees
 
-## Reflection 2
+## Reflection 6b
 
-[Reflection 2](../Reflections/ref02.md)
+[Reflection 6b](../Reflections/ref06b.md)
 

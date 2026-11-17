@@ -35,6 +35,8 @@ Generate a query with an LLM, then verify it: correctness, performance, and edge
 <a id="task-building"></a>
 ## Task Building
 
+**Proves:** [LG1](#lg1) - Was made by my own
+
 - The file sql-notes.md was [developed](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/sql-notes.md)
 
 - The [result](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/pictures/The%20pretask%20output.png) of the commands was developed
@@ -48,10 +50,10 @@ For the command "SELECT c.city, COUNT(DISTINCT c.customer_id) AS customers, SUM(
 
 - Both predctions are [true](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/pictures/Task%201%20execution.png)
 
-**Proves:** [LG1](#lg1) - Was made by my own
-
 <a id="task-engine"></a>
 ## Task Given Engine
+
+**Proves:** [LG2](#lg2) - Was made by my own
 
 - The all timings are: 1 - [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/pictures/Timings%201.png), 2 - [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/pictures/Timings%202.png), 3 - [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/pictures/Timings%203.png) and the normal one - [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/pictures/Timings%204.png)
 
@@ -63,10 +65,10 @@ For the command "SELECT c.city, COUNT(DISTINCT c.customer_id) AS customers, SUM(
 
 - The third index doesn't help since SQLite can already quickly locate a product using this key via its internal rowid, and an index on order_line.product_id does not speed up this search
 
-**Proves:** [LG2](#lg2) - Was made by my own
-
 <a id="task-effect"></a>
 ## Task Effect of index
+
+**Proves:** [LG3](#lg3) - Was made by my own
 
 - The output of the injection_demo.py is [here](https://github.com/Asckord/HSBI-Databases/blob/main/Module03/pictures/The%20injection_demo%20output.png)
 
@@ -74,14 +76,12 @@ For the command "SELECT c.city, COUNT(DISTINCT c.customer_id) AS customers, SUM(
 
 - If, instead, you use a placeholder (?), SQLite treats user input strictly as a value rather than as part of the SQL code. Even if a user enters "' OR 1=1 --", SQLite will look for a client whose name is literally equal to that string, and the OR 1=1 condition will not be executed
 
-**Proves:** [LG3](#lg3) - Was made by my own
-
 <a id="task-generation"></a>
 ## Task Generation
 
-- The command "SELECT c.city, COUNT(DISTINCT c.customer_id) AS customers, SUM(ol.qty * p.price) AS revenue FROM customer c JOIN orders o ON o.customer_id = c.customer_id JOIN order_line ol ON ol.order_id = o.order_id JOIN product p ON p.product_id = ol.product_id WHERE o.ordered_on >= '2025-01-01' AND o.ordered_on < '2026-01-01' GROUP BY c.city ORDER BY revenue DESC;" can be rewritten as "τ_revenue DESC (γ_city; COUNT(DISTINCT customer_id) → customers; SUM(qty × price) → revenue (σ_ordered_on >= '2025-01-01' AND ordered_on < '2026-01-01' ((customer ⋈ customer.customer_id = orders.customer_id orders) ⋈ orders.order_id = order_line.order_id order_line ⋈ order_line.product_id = product.product_id product)))"
-
 **Proves:** [LG4](#lg4) - Was made by my own
+
+- The command "SELECT c.city, COUNT(DISTINCT c.customer_id) AS customers, SUM(ol.qty * p.price) AS revenue FROM customer c JOIN orders o ON o.customer_id = c.customer_id JOIN order_line ol ON ol.order_id = o.order_id JOIN product p ON p.product_id = ol.product_id WHERE o.ordered_on >= '2025-01-01' AND o.ordered_on < '2026-01-01' GROUP BY c.city ORDER BY revenue DESC;" can be rewritten as "τ_revenue DESC (γ_city; COUNT(DISTINCT customer_id) → customers; SUM(qty × price) → revenue (σ_ordered_on >= '2025-01-01' AND ordered_on < '2026-01-01' ((customer ⋈ customer.customer_id = orders.customer_id orders) ⋈ orders.order_id = order_line.order_id order_line ⋈ order_line.product_id = product.product_id product)))"
 
 ## Reflection 3
 
